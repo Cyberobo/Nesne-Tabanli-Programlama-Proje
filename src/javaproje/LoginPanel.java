@@ -777,14 +777,7 @@ public class LoginPanel extends javax.swing.JFrame {
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
         while(true){
             
-            
-            try {
-                    Thread.sleep(2000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            
-            WebElement Textarea=driver.findElement(By.cssSelector("textarea"));
+            WebElement Textarea=driver.findElement(By.cssSelector("textarea[class='x1i0vuye xvbhtw8 x1ejq31n xd10rxx x1sy0etr x17r0tee x5n08af x78zum5 x1iyjqo2 x1qlqyl8 x1d6elog xlk1fp6 x1a2a7pz xexx8yu x4uap5 x18d9i69 xkhd6sd xtt52l0 xnalus7 xs3hnx8 x1bq4at4 xaqnwrm']"));
         
              try {
                     Thread.sleep(500);
@@ -794,6 +787,9 @@ public class LoginPanel extends javax.swing.JFrame {
         
             
             Textarea.click();
+            
+            Textarea=driver.findElement(By.cssSelector("textarea[class='x1i0vuye xvbhtw8 x1ejq31n xd10rxx x1sy0etr x17r0tee x5n08af x78zum5 x1iyjqo2 x1qlqyl8 x1d6elog xlk1fp6 x1a2a7pz xexx8yu x4uap5 x18d9i69 xkhd6sd xtt52l0 xnalus7 xs3hnx8 x1bq4at4 xaqnwrm focus-visible']"));
+            
             try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
