@@ -873,7 +873,7 @@ public class LoginPanel extends javax.swing.JFrame {
                 LoginPanel loginpanel= new LoginPanel();
                 loginpanel.setVisible(true);
                 
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\Emre\\Desktop\\drivers\\chrome\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", ""); //Chrome driver icin dosya yolunu iki tirnak icine girin
                 driver.get("https://www.instagram.com/");
  
             }
